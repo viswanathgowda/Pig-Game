@@ -42,7 +42,7 @@ hold.addEventListener('click', () => {
 });
 
 const winner = function (score) {
-  if (score >= 10) {
+  if (score >= 100) {
     document
       .querySelector(`.player--${playerState}`)
       .classList.add('player--winner');
